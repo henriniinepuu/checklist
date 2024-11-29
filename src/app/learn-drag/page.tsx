@@ -1,3 +1,4 @@
+/*
 "use client"
 
 import {
@@ -104,3 +105,5 @@ const Home: React.FC<HomeProps> = () => {
 };
 
 export default Home;
+
+*/

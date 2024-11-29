@@ -1,3 +1,4 @@
+/*
 import React, { FC } from 'react';
 import { Card } from '@/components/ui/card';
 import { useSortable } from '@dnd-kit/sortable';
@@ -58,3 +59,4 @@ const SortableLinks: FC<SortableLinkCardProps> = ({ id, onDelete }) => {
 };
 
 export default SortableLinks;
+*/

@@ -1,5 +1,3 @@
-import { BellRing, Check } from "lucide-react"
-
 import { Button } from "@/components/ui/button"
 import { Separator } from "@/components/ui/separator"
 
@@ -12,8 +10,9 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 import { Switch } from "@/components/ui/switch"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../ui/select"
-import { SelectViewport } from "@radix-ui/react-select"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../ui/select";
+import { Check } from "lucide-react";
+
 
 const osTasks = [
   {
@@ -173,7 +172,7 @@ export function CardDemo({ className, ...props }: CardProps) {
       </CardContent>
       <CardFooter>
         <Button className="w-full">
-          <Check /> Save to Halo ticket
+          Save to Halo ticket
         </Button>
       </CardFooter>
     </Card>
